@@ -63,7 +63,7 @@ const app = express();
 app.use(express.urlencoded({ extended: true }));
 // CORS setup with credentials allowed
 app.use(cors({
-  origin: "http://localhost:3000", // <-- frontend URL
+  origin: ["http://localhost:3000","https://smile-store-psi.vercel.app"], // <-- frontend URL
   credentials: true,
 }));
 
