@@ -47,7 +47,7 @@ userRouter.delete("/wishlist/remove/:productId",protect, removeFromWishlist);
 // router.delete('/wishlist/remov/:id', protect, removeWishlistItem);
 // // Cart
 // userRouter.get("/cart", getCart);
-// userRouter.put("/cart/update", updateCart);
+// userRouter.put("/cart/update", updateCart);//j
 
 // // // Orders
 // userRouter.get("/orders", getUserOrders);
